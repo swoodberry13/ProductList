@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>products</title>
+</head>
+<body>
+	<h1>my json string:</h1>
+	<script type="text/javascript">
+		var data={
+			"product1":{
+				"name":'Red Sox Baseball Hat',
+				"price":'20',
+				"description":'1976 boston red sox baseball hat',
+				"condition":"fair",
+				"category":["hat","accessories"]
+			},
+			"product2":{
+				"name":'Crop Top',
+				"price":'24',
+				"description":'baby blue cotton crop top',
+				"condition":"great",
+				"category":["top"]
+			},
+			"product3":{
+				"name":'Blue Jeans',
+				"price":'68',
+				"description":'original 1970s vintage levi blue jeans',
+				"condition":'good',
+				"category":["bottoms"]
+			},
+			"product4":{
+				"name":'Red Sunglasses',
+				"price":'14',
+				"description":'classy maroon sunglasses',
+				"condition":"great",
+				"category":["sunglasses","accessories"]
+			},
+			"product5":{
+				"name":'Crossbody Purse',
+				"price":'48',
+				"description":'green crossbody mini purse',
+				"condition":"fair",
+				"category":["purse","accessories"]
+			},
+			"product6":{
+				"name":'Maxi Skirt',
+				"price":'34',
+				"description":'flowy floral maxi skirt',
+				"condition":"great",
+				"category":["bottoms"]
+			},
+			"product7":{
+				"name":'Blouse',
+				"price":'28',
+				"description":'neon green 60s blouse',
+				"condition":"good",
+				"category":["top"]
+			},
+			"product8":{
+				"name":'Clutch',
+				"price":'46',
+				"description":'1950s clamshell clutch',
+				"condition":"new",
+				"category":["purse","accessories"]
+			},
+			"product9":{
+				"name":'Doc Martens',
+				"price":'65',
+				"description":'cherry red 1460 doc martens',
+				"condition":"fair",
+				"category":["shoes"]
+			},
+			"product10":{
+				"name":'Slacks',
+				"price":'40',
+				"description":'tailored black slacks',
+				"condition":"good",
+				"category":["bottoms"]
+			}
+
+		}
+		myData=JSON.stringify(data);
+		var myArr=JSON.parse(myData);
+		// for (var i = myArr.length - 1; i >= 0; i--) {
+		// 	document.write(myArr[i].name+" ");
+		// }
+		// alert(myData);
+		document.write(myData);
+		
+	</script>
+	<br>
+	<br>
+	<a href="products.xml">Link to my xml file</a>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href = "style.css" ?>
+<products>
+	<product>
+		<name>Red Sox Baseball Hat</name>
+		<price>20</price>
+		<description>1976 boston red sox baseball hat</description>
+		<condition>fair</condition>
+		<category>hat</category>
+		<category>accessories</category>
+	</product>
+
+	<product>
+		<name>Crop Top</name>
+		<price>24</price>
+		<description>baby blue cotton crop top</description>
+		<condition>great</condition>
+		<category>top</category>
+	</product>
+
+	<product>
+		<name>Blue Jeans</name>
+		<price>68</price>
+		<description>original 1970s vintage levi blue jeans</description>
+		<condition>good</condition>
+		<category>bottoms</category>
+	</product>
+
+	<product>
+		<name>Red Sunglasses</name>
+		<price>14</price>
+		<description>classy maroon sunglasses</description>
+		<condition>great</condition>
+		<category>sunglasses</category>
+		<category>accessories</category>
+	</product>
+
+	<product>
+		<name>Crossbody Purse</name>
+		<price>48</price>
+		<description>green crossbody mini purse</description>
+		<condition>fair</condition>
+		<category>purse</category>
+		<category>accessories</category>
+	</product>
+
+	<product>
+		<name>Maxi Skirt</name>
+		<price>34</price>
+		<description>flowy floral maxi skirt</description>
+		<condition>great</condition>
+		<category>bottoms</category>
+	</product>
+
+	<product>
+		<name>Blouse</name>
+		<price>28</price>
+		<description>neon green 60s blouse</description>
+		<condition>good</condition>
+		<category>top</category>
+	</product>
+
+	<product>
+		<name>Clutch</name>
+		<price>46</price>
+		<description>1950s clamshell clutch</description>
+		<condition>new</condition>
+		<category>purse</category>
+		<category>accessories</category>
+	</product>
+
+	<product>
+		<name>Doc Martens</name>
+		<price>65</price>
+		<description>cherry red 1460 doc martens</description>
+		<condition>fair</condition>
+		<category>shoes</category>
+	</product>
+
+	<product>
+		<name>Slacks</name>
+		<price>40</price>
+		<description>tailored black slacks</description>
+		<condition>good</condition>
+		<category>bottoms</category>
+	</product>
+</products>
